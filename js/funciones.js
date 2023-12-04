@@ -6,6 +6,7 @@ $(document).ready(function(){
             <li><a href="deporte.html" class="deporte"><i class="fa-solid fa-futbol"></i> Deportes</a></li>
             <li><a href="espectaculo.html" class="espectaculo"><i class="fa-solid fa-star"></i> Espectáculos</a></li>
             <li><a href="cultura.html" class="cultura"><i class="fa-solid fa-palette"></i> Cultura</a></li>
+            <li><a href="entrevista.html" class="entrevista"><i class="fa-solid fa-microphone"></i> Entrevistas</a></li>
         </ul>
     `);
 
@@ -24,6 +25,9 @@ $(document).ready(function(){
         break;
         case 'cultura.html':
             $('nav ul li a.cultura').addClass('active');
+        break;
+        case 'entrevista.html':
+            $('nav ul li a.entrevista').addClass('active');
         break;
     }
 });
