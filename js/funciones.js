@@ -9,6 +9,7 @@ $(document).ready(function(){
             <li><a href="entrevista.html" class="entrevista"><i class="fa-solid fa-microphone"></i> Entrevistas</a></li>
             <li><a href="periodico.html" class="periodico"><i class="fa-solid fa-newspaper"></i> Periódico</a></li>
             <li><a href="radio.html" class="radio"><i class="fa-solid fa-radio"></i> Radio</a></li>
+            <li><a href="television.html" class="television"><i class="fa-solid fa-tv"></i> Televisión</a></li>
         </ul>
     `);
 
@@ -36,6 +37,9 @@ $(document).ready(function(){
         break;
         case 'radio.html':
             $('nav ul li a.radio').addClass('active');
+        break;
+        case 'television.html':
+            $('nav ul li a.television').addClass('active');
         break;
     }
 });
