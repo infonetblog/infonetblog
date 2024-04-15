@@ -7,6 +7,7 @@ $(document).ready(function(){
             <li><a href="espectaculo.html" class="espectaculo"><i class="fa-solid fa-star"></i> Espectáculos</a></li>
             <li><a href="cultura.html" class="cultura"><i class="fa-solid fa-palette"></i> Cultura</a></li>
             <li><a href="entrevista.html" class="entrevista"><i class="fa-solid fa-microphone"></i> Entrevistas</a></li>
+            <li><a href="periodico.html" class="periodico"><i class="fa-solid fa-newspaper"></i> Periódico</a></li>
         </ul>
     `);
 
@@ -28,6 +29,9 @@ $(document).ready(function(){
         break;
         case 'entrevista.html':
             $('nav ul li a.entrevista').addClass('active');
+        break;
+        case 'periodico.html':
+            $('nav ul li a.periodico').addClass('active');
         break;
     }
 });
